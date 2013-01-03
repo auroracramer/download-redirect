@@ -10,7 +10,6 @@ the files and filtering them.
 from os import *
 from os.path import *
 from shutil import move
-import bcrypt
 import platform
 
 # Determine the slash we need for the OS
@@ -80,3 +79,5 @@ class DirectoryProcessor(object):
     def load_keychain(self):
         return None
 
+    def add_password(self):
+        return None
